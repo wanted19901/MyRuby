@@ -12,12 +12,4 @@ class Cart
   def remove_item
     @items.pop
   end
-
 end
-
-bobCart = Cart.new
-  bobCart.add_item(3)
-  bobCart.add_item(13)
-p bobCart.add_item(123)
-  bobCart.remove_item
-p bobCart
