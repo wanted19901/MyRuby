@@ -7,6 +7,3 @@ class Item
 attr_writer :price
 attr_reader  :price, :weight
 end
-
-@car = Item.new(:weight => 200, :price => 300)
-p @car
