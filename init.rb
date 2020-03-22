@@ -10,8 +10,5 @@ item3 = Item.new({:weight => 160, :price =>260})
 cart = Cart.new
 cart.add_item(item1)
 cart.add_item(item2)
- p cart
 
-p item1.respond_to?(:weight)
-p item2.info{}
-p item3
+puts item1.price 
